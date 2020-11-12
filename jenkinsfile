@@ -1,7 +1,7 @@
 node{
     parameters
     {
-      checkboxParameter name:'Ordered_selected_values', format:'YAML', uri:'https://raw.githubusercontent.com/sunweisheng/Jenkins/master/examples/example.json'
+      checkboxParameter name:'Ordered_selected_values', format:'YAML', uri:'https://github.com/vaddeadiseshu/testingvalue/tree/main/testcase/testcase.yaml'
    }
    stages {
       stage('Hello') {
