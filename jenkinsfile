@@ -1,12 +1,16 @@
-node{
+node
+{
     parameters
     {
       checkboxParameter name:'Ordered_selected_values', format:'YAML', uri:'https://github.com/vaddeadiseshu/testingvalue/tree/main/testcase/testcase.yaml'
-   }
-   stages {
-      stage('Hello') {
-         steps {
-            print params['Ordered_selected_values']
+    }
+   stages 
+   {
+      stage('Hello') 
+      {
+         steps 
+         {
+            print params[%'Ordered_selected_values'%]
          }
       }
 
