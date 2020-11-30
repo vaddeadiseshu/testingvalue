@@ -1,5 +1,9 @@
 node
 {
+   environment
+   {
+      
+   }
     parameters
     {
       checkboxParameter name:'Ordered_selected_values', format:'YAML', uri:'https://github.com/vaddeadiseshu/testingvalue/tree/main/testcase/testcase.yaml'
@@ -10,7 +14,7 @@ node
       {
          steps 
          {
-            print params[%'Ordered_selected_values'%]
+            print params['Ordered_selected_values']
          }
       }
 
