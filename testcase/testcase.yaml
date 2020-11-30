@@ -1,14 +1,11 @@
 CheckboxParameter:
-  - key: 1a1
-    value: ROcblas-short-run
-  - key: 1a2
-    value: Rocblas-Long-run
-  - key: 1a3
-    value: custom-test
-  - key: 1a4
-    value: Tensile
-  - key: 1b
-    value: hipblas
-  - key: 1c
-    value: rocsparse
+  - key: 1a1_short
+    value: 1a1
+  - key: 1a2_long
+    value: 1a2
+  - key: 1a3_sparse
+    value: 1a3
+  - key: 1a4_tesns
+    value: 1a4
+  
     
